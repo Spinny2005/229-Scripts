@@ -1,4 +1,3 @@
-# S
 import math
 
 a = int(input("Enter first number: "))
@@ -24,7 +23,6 @@ while True:
     quotient = larger // smaller
 
     if remainder == 0:
-        print("")
         print("GCD: ", smaller)
         print("s: ", s)
         print("t: ", t)
@@ -40,5 +38,3 @@ while True:
 
     larger = smaller
     smaller = remainder
-
-

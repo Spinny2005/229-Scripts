@@ -1,4 +1,3 @@
-# S
 import math
 
 a = int(input("Enter first number: "))
@@ -10,7 +9,7 @@ if a == b:
 larger = a if a > b else b
 smaller = a if a < b else b
 
-print("Recursive calls:")
+print("\nRecursive calls:")
 while True:
     print(f"gcd({larger}, {smaller})")
     remainder = larger % smaller
@@ -21,5 +20,3 @@ while True:
         
     larger = smaller
     smaller = remainder
-
-        

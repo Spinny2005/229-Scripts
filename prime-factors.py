@@ -1,4 +1,3 @@
-# S
 import math
 
 def gcd(a, b):
@@ -43,4 +42,3 @@ try:
     
 except ValueError:
     print("Please enter valid integer numbers.")
-
